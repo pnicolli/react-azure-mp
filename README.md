@@ -13,17 +13,15 @@ npm install --save react-azure-mp
 ## Usage
 
 ```jsx
-import React, { Component } from 'react'
+import React from 'react'
 import { AzureMP } from 'react-azure-mp'
 
-class Example extends Component {
-  render() {
-    return <AzureMP
-             skin="amp-flush"
-             src={[{src: "http://amssamples.streaming.mediaservices.windows.net/91492735-c523-432b-ba01-faba6c2206a2/AzureMediaServicesPromo.ism/manifest", type: "application/vnd.ms-sstr+xml" }]}
-           />
-  }
-}
+const Example = () => (
+  <AzureMP
+     skin="amp-flush"
+     src={[{src: "http://amssamples.streaming.mediaservices.windows.net/91492735-c523-432b-ba01-faba6c2206a2/AzureMediaServicesPromo.ism/manifest", type: "application/vnd.ms-sstr+xml" }]}
+   />
+)
 ```
 
 ## Result
