@@ -32,6 +32,7 @@ class Example extends Component {
 ## Sandbox examples:
 - [Simple initialization](https://codesandbox.io/s/v845rpv0qy)
 - [Custom amp options](https://codesandbox.io/s/j7olp9617y)
+- [Change player skin](https://codesandbox.io/s/jjxz0qw4l3)
 
 ## License
 
