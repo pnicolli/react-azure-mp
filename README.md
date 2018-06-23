@@ -29,6 +29,9 @@ class Example extends Component {
 ## Result
 ![Azure MP GIF](https://media.giphy.com/media/8YvvyfJ4pSIU0Bh4tw/giphy.gif)
 
+## Sandbox examples:
+- [Simple initialization](https://codesandbox.io/s/v845rpv0qy)
+
 ## License
 
 MIT © [SidKH](https://github.com/SidKH)
