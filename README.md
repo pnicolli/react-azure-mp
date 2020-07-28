@@ -24,9 +24,6 @@ const Example = () => (
 )
 ```
 
-## Result
-![Azure MP GIF](https://media.giphy.com/media/8YvvyfJ4pSIU0Bh4tw/giphy.gif)
-
 ## Sandbox examples:
 - [Simple initialization](https://codesandbox.io/s/v845rpv0qy)
 - [Custom amp options](https://codesandbox.io/s/j7olp9617y)
