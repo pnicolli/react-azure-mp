@@ -30,6 +30,9 @@ const Example = () => (
 - [Change player skin](https://codesandbox.io/s/jjxz0qw4l3)
 - [Adapt for a different aspect ratio](https://codesandbox.io/s/xv0yj030kw)
 
+## SSR
+Supports server-side rendering
+
 ## License
 
 MIT © [SidKH](https://github.com/SidKH)
