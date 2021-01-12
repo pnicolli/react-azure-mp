@@ -1,7 +1,7 @@
 let loader = false
 
 export default (skin = 'amp-default') => {
-  if (!loader) {
+  if (!loader && !window.amp) {
     loader = new Promise((resolve, reject) => {
       let scriptTag = document.createElement('script')
       let linkTag = document.createElement('link')
@@ -14,5 +14,5 @@ export default (skin = 'amp-default') => {
       scriptTag.onload = () => resolve({ skin: skin })
     })
   }
-  return loader
+  return loader || Promise.resolve({skin: skin})
 }
